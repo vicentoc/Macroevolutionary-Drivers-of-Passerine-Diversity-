@@ -19,14 +19,19 @@ Contains CSV files with the estimated speciation and immigration times to the Yu
 
 **data/models:** \
 Folder with parameter values for tested scenarios for each model \
-***.csv***: Five files in csv format with parameter values for each tested scenario of each compared models. \
+****.csv***: Five files in csv format with parameter values for each tested scenario of each compared models. \
 ***best_model_selection.csv***: File with model with parameter values for the selected scenario of each model. \
 ***model_selection_results.xlsx***: Summary of parameter values of the compared scenarios for each model.
 
 **data/simulations:** \
 Folder with simulations requred for parametric bootstrap analyses for all models \
-***RDATA***: Five files in RData format with simulated data from the selected models. \
+****.RDATA***: Five files in R format with simulated data from the selected models. \
 ***model_simulation.xlsx***: Parameter values of the simulated data for each model. 
+
+**data/crossvalidation:** \
+Folder with simulations requred for parametric bootstrap analyses for all models \
+****.rds***: Four files in R format with simulated data from the selected models. \
+***crossvalidation_results.xlsx***: Parameter values of the simulated data for each model. 
 
 **/bin:** \
 Contain files to assembling and annotated cpDNA from row data sequences. \

@@ -9,30 +9,22 @@ Neotropical systems harbor an exceptionally high diversity of birds; however, th
 
 **/data:** \
 Contains CSV files with the estimated speciation and immigration times to the Yucatán Peninsula for each species. \
-***py_tbl_26_final***: Base dataset used to estimate the parameters of the null, SR, and RR models. \
-***py_tbl_26_dryforest.csv***: Base dataset used to estimate parameters for TT model for dry-forest species and non-dry forest species. \
-***py_tbl_26_tyrannidae***: Base dataset used to estimate parameters for TT model for Tyrannidae species and non-Tyrannidae species. \
+***py_tbl_26_final***: Base dataset used to estimate the parameters of the null, Shift-Rate, and Relaxed-Rate models. \
+***py_tbl_26_dryforest.csv***: Base dataset used to estimate parameters for Two-Type model for dry-forest and non-dry forest species. \
+***py_tbl_26_tyrannidae***: Base dataset used to estimate parameters for Two-Type model for Tyrannidae and non-Tyrannidae species. \
 ***daisie_tbl.RDATA***: Contains the R objects required to run the analyses in the DAISIE package.
 
 **/bin:** \
 Contain files to assembling and annotated cpDNA from row data sequences. \
-
-
-
-***1_reads_preprocessing_and_assembly.txt***: Runs a workflow consisting of five main steps for chloroplast genome assembly: (1) setting environment variables and creating output directories and paths; (2) downloading and assessing sequencing data published by [Breslinn et al., (2021)](https://onlinelibrary.wiley.com/doi/10.1002/tax.12451) and [Chincoya et al (2023)](https://pubmed.ncbi.nlm.nih.gov/37106713/); (3) preprocessing and trimming reads using [TrimGalore](https://github.com/FelixKrueger/TrimGalore) version 0.4.3; (4) assembling chloroplast genomes with [GetOrganelle](https://github.com/Kinggerm/GetOrganelle) version 1.7.1; and (5) evaluating assembly quality using [Bandage](https://github.com/rrwick/Bandage#2022-update). \
-***2_genome_assembly_various_values.txt***: This script executes steps 4 and 5 of the previous loop, but testing multiple w values (33, 35, 40, ..., 105, and 110) with [GetOrganelle](https://github.com/Kinggerm/GetOrganelle) version 1.7.1 during chloroplast genome assembly and evaluating assembly completeness and circularization with [Bandage](https://github.com/rrwick/Bandage#2022-update). \
-***3_pga_annotation.txt***: We employed two annotators: 1) [GeSeq](https://chlorobox.mpimp-golm.mpg.de/geseq.html) from Chlorobox and 2) [PGA](https://github.com/quxiaojian/PGA), which works through the command line. The present loop is used to extract FASTA files from assembled genomes and annotate them. \
-**/metadata:** \
-Contains a CSV file listing the GenBank accession numbers of the raw sequencing data used for all analyzed species. \
-**/scripts:** \
-Contains a Python script for comparing nucleotide sequence identity, length, and gene annotation between the two inverted repeat (IR) regions. \
-**/chloroplast_genomes** \
-This directory contains annotated chloroplast genome maps in PNG format (.png). \
-**/references** \
-This directory contains annotated chloroplast genome maps in genebank and fasta formats dowloaded from genebank. \
-**gb files** \
-GenBank format files (.gb) are available upon request from the corresponding author.
+***1_getdata_from_genbankR.R***: Runs a workflow to download all sequences from GeneBank using the accesion numbers. Create a folder by species ordered by families. \
+***2_intodaisie_ars_final.R***:  Uses the [DAISIEprep](https://www.sciencedirect.com/science/article/pii/S1055790325000417?via%3Dihub) R package to extract immigration and speciation times from calibrated phylogenies. The procedures used to obtain the calibrated phylogenies are described in detail in the original manuscript. \
+***3_daisie_tbl.R***: csv files are converted to the DAISIE format. \
+***4_model_selection.R***: R script used to estimate AIC and BIC values for model selection across the different scenarios evaluated for each model. \
+***5_model_simulation.R***: R script used to perform parametric bootstrap analyses using datasets simulated with the parameter estimates from the selected model.  \
+***6_cross_validation_simulations.R***: R script used to perform from the Shift-Rate model to the Two-Type model and vice versa. \
+***7_cross_validation.R***: R script used to perform the cross validation analyses from the simulated communities in the previous step.
 
 **References** \
-MacArthur RH, Wilson EO (1967) The theory of island biogeography. Princeton University Press.
-Valente, L, Phillimore, AB, Etienne, RS (2015) Equilibrium and non-equilibrium dynamics simultaneously operate in the Galápagos islands. Ecology Letters 18: 844-852. https://doi.org/10.1111/ele.12461.
+MacArthur RH, Wilson EO (1967) The theory of island biogeography. Princeton University Press. \
+Valente, L, Phillimore, AB, Etienne, RS (2015) Equilibrium and non-equilibrium dynamics simultaneously operate in the Galápagos islands. Ecology Letters 18: 844-852. https://doi.org/10.1111/ele.12461. \
+Lambert, J.W., Roeble, L., Pannetier T., Etienne, S. R., Valente, L. (2025). Using phylogenetic data for island biogeography analyses: The DAISIEprep package. 206 (108324) https://doi.org/10.1016/j.ympev.2025.108324

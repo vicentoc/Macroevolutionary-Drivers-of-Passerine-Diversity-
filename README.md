@@ -11,7 +11,7 @@ Neotropical systems harbor an exceptionally high diversity of birds; however, th
 Contains CSV files with the estimated speciation and immigration times to the Yucatán Peninsula for each species. \
 ***py_tbl_26_final***: Base dataset used to estimate the parameters of the null, SR, and RR models. \
 ***py_tbl_26_dryforest.csv***: Base dataset used to estimate parameters for TT model for dry-forest species and non-dry forest species. \
-***py_tbl_26_tyrannidae***: Base dataset used to estimate parameters for TT model for Tyrannidae species and non-Tyrannidae species \
+***py_tbl_26_tyrannidae***: Base dataset used to estimate parameters for TT model for Tyrannidae species and non-Tyrannidae species. \
 ***daisie_tbl.RDATA***: Contains the R objects required to run the analyses in the DAISIE package.
 
 **/bin:** \

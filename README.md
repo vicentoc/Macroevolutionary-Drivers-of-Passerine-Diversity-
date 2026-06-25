@@ -8,17 +8,24 @@ This repository contains all data, workflows, scripts, and source code required 
 Neotropical systems harbor an exceptionally high diversity of birds; however, the macroevolutionary processes shaping avian communities across most regions remain poorly understood, and the relative contributions of different processes are often difficult to disentangle. The theory of island biogeography predicts that species richness in geographically isolated communities is determined primarily by the balance between immigration and extinction [(MacArthur and Wilson, 1967)](https://www.jstor.org/stable/j.ctt19cc1t2). However, the classic equilibrium theory has been challenged by evidence suggesting that speciation and the geological dynamics of island systems can also play major roles in generating biodiversity. Here, we used [DAISIE](https://rsetienne.github.io/DAISIE/) model of island biogeography to infer the timing and mechanisms of passerine community assembly in the Yucatán Peninsula, Mexico.
 
 **/data:** \
-Contains all files required to reproduce the analyses presented in the original article, separated in four folders. \
-**/dataset:** \
+Contains all files required to reproduce the analyses presented in the original article, separated in four folders.
+
+**data/dataset:** \
 Contains CSV files with the estimated speciation and immigration times to the Yucatán Peninsula for each species. \
 ***py_tbl_26_final***: Base dataset used to estimate the parameters of the null, Shift-Rate, and Relaxed-Rate models. \
 ***py_tbl_26_dryforest.csv***: Base dataset used to estimate parameters for Two-Type model for dry-forest and non-dry forest species. \
 ***py_tbl_26_tyrannidae***: Base dataset used to estimate parameters for Two-Type model for Tyrannidae and non-Tyrannidae species. \
 ***daisie_tbl.RDATA***: Contains the R objects required to run the analyses in the DAISIE package. \
-**/simulations:** \
+
+**data/models:** \
+Folder with parameter values for tested scenarios for each model \
+***.csv***: Five files in csv format with parameter values for each tested scenario of each compared models. \
+***model_selection_results.xlsx***: Summary of arameter values of the compared scenarios for each model.
+
+**data/simulations:** \
 Folder with simulations requred for parametric bootstrap analyses for all models \
-
-
+***RDATA***: Five files in RData format with simulated data from the selected models. \
+***model_simulation.xlsx***: Parameter values of the simulated data for each model. 
 
 **/bin:** \
 Contain files to assembling and annotated cpDNA from row data sequences. \

@@ -1,17 +1,18 @@
-## Macroevolutionary-Drivers-of-Passerine-Diversity-
+## Macroevolutionary-Drivers-of-Passerine-Diversity
 This repository contains all data, workflows, scripts, and source code required to reproduce the analyses and results presented in the manuscript Macroevolutionary Drivers of Passerine Community Assembly in a Neotropical Peninsular System, currently under revision at the [*Journal of Biogeography*](https://onlinelibrary.wiley.com/journal/13652699).
 
 ![](cyucatanicus.jpg) \
-**Cyanocorax yucatanicus** is an endemic species from the Yucatán Peninsula. Photo from [enciclovida, CONABIO](https://enciclovida.mx/especies/35985).
+***Cyanocorax yucatanicus*** is an endemic species from the Yucatán Peninsula. Photo from [enciclovida, CONABIO](https://enciclovida.mx/especies/35985).
 
 **Background** \
-Neotropical systems harbor an exceptionally high diversity of birds; however, the macroevolutionary processes shaping avian communities across most regions remain poorly understood, and the relative contributions of different processes are often difficult to disentangle. The theory of island biogeography predicts that species richness in geographically isolated communities is determined primarily by the balance between immigration and extinction [MacArthur and Wilson, 1967](https://www.jstor.org/stable/j.ctt19cc1t2). However, the classic equilibrium theory has been challenged by evidence suggesting that speciation and the geological dynamics of island systems can also play major roles in generating biodiversity. Here, we used [DAISIE](https://rsetienne.github.io/DAISIE/) model of island biogeography to infer the timing and mechanisms of passerine community assembly in the Yucatán Peninsula, Mexico.
+Neotropical systems harbor an exceptionally high diversity of birds; however, the macroevolutionary processes shaping avian communities across most regions remain poorly understood, and the relative contributions of different processes are often difficult to disentangle. The theory of island biogeography predicts that species richness in geographically isolated communities is determined primarily by the balance between immigration and extinction [(MacArthur and Wilson, 1967)](https://www.jstor.org/stable/j.ctt19cc1t2). However, the classic equilibrium theory has been challenged by evidence suggesting that speciation and the geological dynamics of island systems can also play major roles in generating biodiversity. Here, we used [DAISIE](https://rsetienne.github.io/DAISIE/) model of island biogeography to infer the timing and mechanisms of passerine community assembly in the Yucatán Peninsula, Mexico.
 
 **/data:** \
-Contain files to assembling and annotated cpDNA from row data sequences. \
-
-
-
+Contains CSV files with the estimated speciation and immigration times to the Yucatán Peninsula for each species. \
+***py_tbl_26_final***: Base dataset used to estimate the parameters of the null, SR, and RR models.
+***py_tbl_26_dryforest.csv***: Base dataset used to estimate parameters for TT model for dry-forest species and non-dry forest species.
+***py_tbl_26_tyrannidae***: Base dataset used to estimate parameters for TT model for Tyrannidae species and non-Tyrannidae species
+***daisie_tbl.RDATA***: Contains the R objects required to run the analyses in the DAISIE package.
 
 **/bin:** \
 Contain files to assembling and annotated cpDNA from row data sequences. \

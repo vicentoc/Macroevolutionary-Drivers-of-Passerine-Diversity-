@@ -1,0 +1,123 @@
+﻿id,Family,Clade_name,Status,Missing_species,Branching_times,Min_age,Max_age,name,Ecosystem,Family,Genetic data
+10,Corvidae,Cyanocorax yucatanicus,Endemic,0,2.29,0.29,NA,Cyanocorax_yucatanicus,seco,Non-Tyrannidae,TRUE
+32,Icteridae,Icterus auratus,Endemic,0,2.03,0.02,2.03,Icterus_auratus_AF099312_Yucatan_Mexico,seco,Non-Tyrannidae,TRUE
+49,Passerellidae,Arremonops chloronotus,Endemic,0,2.54,NA,2.6,Arremonops_chloronotus_FJ547295_Campeche_endemic,rainforest,Non-Tyrannidae,TRUE
+101,Tyrannidae,Myiarchus yucatanensis,Endemic,0,1.86,0.09,NA,Myiarchus_yucatanensis_JQ004391_ENDEMIC_Mexico,seco,Tyrannidae,TRUE
+121,Virionidae,Vireo magister,Endemic,0,2.17,NA,NA,Vireo_magister_KM115351_Endemic_Mexico,rainforest,Non-Tyrannidae,TRUE
+86,Troglodytidae,Thryothorus albinucha,Endemic_MaxAge,0,2.6,NA,2.6,Thryothorus_ludovicianus_AY465893_Campeche,seco,Non-Tyrannidae,TRUE
+8,Cardinalidae,Piranga roseogularis,Endemic_MaxAge_MinAge,0,"2.6,0.10",0.1,2.6,Piranga roseogularis,rainforest,Non-Tyrannidae,TRUE
+43,Mimidae,Melanoptila glabrirostris,Endemic_MaxAge_MinAge,0,"2.6,0.48",0.48,2.6,Melanoptila_glabrirostris_AF140893_Endemic_Mexico,seco,Non-Tyrannidae,TRUE
+54,Polioptilidae,Polioptila albiventris,Endemic_MaxAge_MinAge,0,"2.6,0.15",0.15,2.6,Polioptila_albiloris_MG903006_Yucatan_Mexico,rainforest,Non-Tyrannidae,TRUE
+83,Troglodytidae,Campylorhynchus yucatanicus,Endemic_MaxAge_MinAge,0,"2.6,0.05",0.05,2.6,Campylorhynchus_yucatanicus_MZ380473,seco,Non-Tyrannidae,TRUE
+1,Cardinalidae,Cardinalis cardinalis,Non_endemic,0,0.76,0.3,2.6,Cardinalis_cardinalis,seco,Non-Tyrannidae,TRUE
+3,Cardinalidae,Cyanocompsa parellina,Non_endemic,0,0.3,0.16,2.6,cyanocompsa_parellina,seco,Non-Tyrannidae,TRUE
+7,Cardinalidae,Habia rubica,Non_endemic,0,0.04,NA,NA,Habia_rubica_MX_Cam_H_rubica,rainforest,Non-Tyrannidae,TRUE
+15,Fringillidae,Euphonia gouldi,Non_endemic,0,0.14,0.11,NA,Euphonia_gouldi ,rainforest,Non-Tyrannidae,TRUE
+18,Furnariidae,Automolus ochrolaemus,Non_endemic,0,0.03,0.01,0.03,Automolus_ochrolaemus,rainforest,Non-Tyrannidae,TRUE
+20,Furnariidae,Dendrocincla homochroa,Non_endemic,0,0.21,0.15,NA,Dendrocincla_homochroa,rainforest,Non-Tyrannidae,TRUE
+21,Furnariidae,Dendrocolaptes sanctithomae,Non_endemic,0,0.12,0.07,NA,Dendrocolaptes_sanctithomae,rainforest,Non-Tyrannidae,TRUE
+23,Furnariidae,Sclerurus guatemalensis,Non_endemic,0,0.22,0.04,NA,Sclerurus_guatemalensis,rainforest,Non-Tyrannidae,TRUE
+26,Furnariidae,Xenops minutus,Non_endemic,0,0.98,0.11,NA,Xenops_minutus,rainforest,Non-Tyrannidae,TRUE
+28,Hirundinidae,Petrochelidon fulva,Non_endemic,0,0.12,0.02,NA,Petrochelidon_fulva,seco,Non-Tyrannidae,TRUE
+29,Hirundinidae,Tachycineta albilinea,Non_endemic,0,0.66,NA,NA,Tachycineta_albilinea_Belice,rainforest,Non-Tyrannidae,TRUE
+34,Icteridae,Icterus cucullatus,Non_endemic,0,0.63,NA,NA,Icterus_cucullatus_AF099322_Campeche_Mexico,seco,Non-Tyrannidae,TRUE
+35,Icteridae,Icterus gularis,Non_endemic,0,0.12,0.08,NA,Icterus_gularis,seco,Non-Tyrannidae,TRUE
+44,Mimidae,Mimus gilvus,Non_endemic,0,0.57,0.25,NA,Mimus_gilvus_JN799667_Yucatan_Mexico ,seco,Non-Tyrannidae,TRUE
+45,Oxyruncidae,Onychorhynchus coronatus,Non_endemic,0,0.29,0.07,NA,NA,rainforest,Non-Tyrannidae,TRUE
+46,Oxyruncidae,Terenotriccus erythrurus,Non_endemic,0,0.21,0.15,NA,Terenotriccus_erythrurus,rainforest,Non-Tyrannidae,TRUE
+47,Parulidae,Basileuterus culicivorus,Non_endemic,0,0.17,NA,NA,Basileuterus_culicivorus_GU189096_Campeche,rainforest,Non-Tyrannidae,TRUE
+48,Parulidae,Geothlypis poliocephala,Non_endemic,0,0.13,NA,NA,Geothlypis_poliocephala_FJ605327_Yucatan_Mexico,seco,Non-Tyrannidae,TRUE
+55,Polioptilidae,Polioptila caerulea,Non_endemic,0,0.39,0.33,NA,Polioptila_caerulea,seco,Non-Tyrannidae,TRUE
+56,Polioptilidae,Polioptila plumbea/bilineata,Non_endemic,0,0.17,0.13,NA,Polioptila_plumbea,rainforest,Non-Tyrannidae,TRUE
+57,Polioptilidae,Ramphocaenus melanurus,Non_endemic,0,0.22,0.16,,NA,rainforest,Non-Tyrannidae,TRUE
+58,Thamnophilidae,Cercomacroides tyrannina,Non_endemic,0,0.64,0.09,NA,Cercomacroides_tyrannina,rainforest,Non-Tyrannidae,TRUE
+62,Thraupidae,Chlorophanes spiza,Non_endemic,0,0.17,0.08,NA,Chlorophanes spiza,rainforest,Non-Tyrannidae,TRUE
+63,Thraupidae,Coereba flaveola,Non_endemic,0,2.28,NA,NA,Coreba_flaveola_EF567893_Quintana_Roo,rainforest,Non-Tyrannidae,TRUE
+64,Thraupidae,Coereba flaveola,Non_endemic,0,0.26,0.09,NA,Coreba_flaveola,rainforest,Non-Tyrannidae,TRUE
+65,Thraupidae,Cyanerpes cyaneus,Non_endemic,0,0.13,NA,0,Cyanerpes_cyaneus,rainforest,Non-Tyrannidae,TRUE
+66,Thraupidae,Eucometis penicillata,Non_endemic,0,0.72,0.39,NA,Eucometis_penicillata,rainforest,Non-Tyrannidae,TRUE
+69,Thraupidae,Saltator atriceps,Non_endemic,0,0.11,0.07,NA,Saltator_atriceps,seco,Non-Tyrannidae,TRUE
+70,Thraupidae,Saltator coerulescens/grandis,Non_endemic,0,0.04,NA,NA,Saltator_coerulescens_KF012722_Mexico_cam ,seco,Non-Tyrannidae,TRUE
+71,Thraupidae,Saltator maximus,Non_endemic,0,0.29,0.17,NA,Saltator_maximus,rainforest,Non-Tyrannidae,TRUE
+76,Thraupidae,Tiaris olivaceus,Non_endemic,0,0.19,0.05,NA,Tiaris_olivaceus,seco,Non-Tyrannidae,TRUE
+77,Thraupidae,Volatinia jacarina,Non_endemic,0,0.28,NA,NA,Volatinia_jacarina_FJ176141,seco,Non-Tyrannidae,TRUE
+82,Tityridae,Tityra semifasciata,Non_endemic,0,0.05,NA,NA,Tityra_semifasciata,seco,Non-Tyrannidae,TRUE
+84,Troglodytidae,Henicorhina leucosticta,Non_endemic,0,0.66,0.18,NA,Henicorhina_leucosticta_EU983480_Bel,rainforest,Non-Tyrannidae,TRUE
+87,Troglodytidae,Troglodytes aedon,Non_endemic,0,1.6,NA,NA,Troglodytes_aedon_MW353112_Belice,seco,Non-Tyrannidae,TRUE
+90,Tyrannidae,Attila spadiceus,Non_endemic,0,0.1,NA,NA,Attila_spadiceus,seco,Tyrannidae,TRUE
+91,Tyrannidae,Attila spadiceus 2,Non_endemic,0,0.2,0.13,NA,Attila_spadiceus_KM079722_Campeche_Mexico,seco,Tyrannidae,TRUE
+97,Tyrannidae,Megarynchus pitangua,Non_endemic,0,0.04,NA,NA,Megarynchus_pitangua_FJ175974_Bel,seco,Tyrannidae,TRUE
+98,Tyrannidae,Mionectes oleagineus,Non_endemic,0,0.07,0.03,NA,Mionectes_oleagineus,seco,Tyrannidae,TRUE
+99,Tyrannidae,Myiarchus tuberculifer,Non_endemic,0,0.24,0.12,NA,Myiarchus_tuberculifer,seco,Tyrannidae,TRUE
+100,Tyrannidae,Myiarchus tyrannulus,Non_endemic,0,0.68,NA,NA,Myiarchus_tyrannulus,seco,Tyrannidae,TRUE
+102,Tyrannidae,Myiobius sulphureipygius,Non_endemic,0,0.74,0.14,NA,Myiobius_sulphureipygius,rainforest,Tyrannidae,TRUE
+104,Tyrannidae,Myiopagis viridicata,Non_endemic,0,0.07,0.03,NA,Myiopagis_viridicata,seco,Tyrannidae,TRUE
+105,Tyrannidae,Myiozetetes similis,Non_endemic,0,1.74,0.09,NA,Myiozetetes_similis,seco,Tyrannidae,TRUE
+110,Tyrannidae,Poecilotriccus sylvia,Non_endemic,0,0.4,0.11,NA,Poecilotriccus_sylvia,rainforest,Tyrannidae,TRUE
+115,Tyrannidae,Tyrannus couchii,Non_endemic,0,0.17,NA,,Tyrannus_couchii_DQ433246_Mexico_Yucatan,seco,Tyrannidae,TRUE
+118,Virionidae,Cyclarhis gujanensis,Non_endemic,0,1.67,0.32,NA,Cyclarhis_gujanensis,seco,Non-Tyrannidae,TRUE
+119,Virionidae,Pachysylvia decurtata,Non_endemic,0,0.2,0.14,NA,Hylophilus_decurtatus,rainforest,Non-Tyrannidae,TRUE
+120,Virionidae,Tunchiornis ochraceiceps,Non_endemic,0,0.04,NA,NA,Hylophilus_ochraceiceps_KM115242_Belize,rainforest,Non-Tyrannidae,TRUE
+2,Cardinalidae,Caryothraustes poliogaster,Non_endemic_MaxAge,0,2.6,NA,2.6,NA,rainforest,Non-Tyrannidae,False 
+5,Cardinalidae,Granatellus sallaei,Non_endemic_MaxAge,0,2.6,NA,2.6,NA,seco,Non-Tyrannidae,False 
+9,Corvidae,Cyanocorax yncas,Non_endemic_MaxAge,0,2.6,NA,2.6,NA,seco,Non-Tyrannidae,False 
+11,Corvidae,Psilorhinus morio,Non_endemic_MaxAge,0,2.6,NA,2.6,NA,seco,Non-Tyrannidae,False 
+12,Cotingidae,Cotinga amabilis,Non_endemic_MaxAge,0,2.6,NA,2.6,NA,rainforest,Non-Tyrannidae,False 
+13,Formicariidae,Formicarius moniliger,Non_endemic_MaxAge,0,2.6,NA,2.6,NA,rainforest,Non-Tyrannidae,False 
+16,Fringillidae,Euphonia hirundinacea,Non_endemic_MaxAge,0,2.6,NA,2.6,NA,seco,Non-Tyrannidae,False 
+17,Fringillidae,Spinus psaltria,Non_endemic_MaxAge,0,2.6,NA,2.6,NA,seco,Non-Tyrannidae,False 
+19,Furnariidae,Dendrocincla anabatina,Non_endemic_MaxAge,0,2.6,NA,2.6,NA,rainforest,Non-Tyrannidae,TRUE
+22,Furnariidae,Lepidocolaptes souleyetii,Non_endemic_MaxAge,0,1.55,NA,1.56,Lepidocolaptes_souleyetii,rainforest,Non-Tyrannidae,TRUE
+24,Furnariidae,Sittasomus griseicapillus,Non_endemic_MaxAge,0,1.24,NA,1.24,Sittasomus_griseicapillus_GU215383_Ver_Mexico,seco,Non-Tyrannidae,TRUE
+25,Furnariidae,Synallaxis erythrothorax,Non_endemic_MaxAge,0,2.6,NA,2.6,NA,seco,Non-Tyrannidae,False 
+31,Icteridae,Dives dives,Non_endemic_MaxAge,0,2.6,NA,2.6,NA,seco,Non-Tyrannidae,False 
+36,Icteridae,Icterus mesomelas,Non_endemic_MaxAge,0,0.95,NA,0.95,NA,seco,Non-Tyrannidae,TRUE
+38,Icteridae,Icterus spurius,Non_endemic_MaxAge,0,0.27,NA,0.27,Icterus_fuertesi ,seco,Non-Tyrannidae,TRUE
+39,Icteridae,Molothrus aeneus,Non_endemic_MaxAge,0,0.91,NA,0.91,Molothrus_aeneus,seco,Non-Tyrannidae,TRUE
+40,Icteridae,Molothrus oryzivorus,Non_endemic_MaxAge,0,2.22,NA,2.22,Molothrus_oryzivorus_JQ175401_Pan,rainforest,Non-Tyrannidae,TRUE
+41,Icteridae,Psarocolius montezuma,Non_endemic_MaxAge,0,2.6,NA,2.6,NA,rainforest,Non-Tyrannidae,False 
+42,Icteridae,Quiscalus mexicanus,Non_endemic_MaxAge,0,0.29,NA,0.29,Quiscalus_mexicanus,seco,Non-Tyrannidae,TRUE
+50,Passerellidae,Arremonops rufivirgatus,Non_endemic_MaxAge,0,2.6,NA,2.6,NA,seco,Non-Tyrannidae,False 
+51,Passerellidae,Peucaea botterii,Non_endemic_MaxAge,0,2.6,NA,2.6,NA,rainforest,Non-Tyrannidae,False 
+52,Pipridae,Ceratopipra mentalis,Non_endemic_MaxAge,0,2.6,NA,2.6,NA,rainforest,Non-Tyrannidae,False 
+53,Pipridae,Manacus candei,Non_endemic_MaxAge,0,2.6,NA,2.6,NA,rainforest,Non-Tyrannidae,False 
+59,Thamnophilidae,Dysithamnus mentalis,Non_endemic_MaxAge,0,0.85,NA,0.85,Dysithamnus_mentalis_GU215224_Pan,rainforest,Non-Tyrannidae,TRUE
+67,Thraupidae,Lanio aurantius,Non_endemic_MaxAge,0,0.76,NA,0.76,Lanio_aurantius_EF529850_Hon,rainforest,Non-Tyrannidae,TRUE
+68,Thraupidae,Ramphocelus sanguinolentus,Non_endemic_MaxAge,0,2.6,NA,2.6,NA,rainforest,Non-Tyrannidae,False 
+72,Thraupidae,Sporophila funerea,Non_endemic_MaxAge,0,2.6,NA,2.6,NA,rainforest,Non-Tyrannidae,False 
+73,Thraupidae,Sporophila morelleti/torqueola,Non_endemic_MaxAge,0,0.53,NA,NA,Sporophila_torqueola_EU442328_Guatemala,seco,Non-Tyrannidae,TRUE
+74,Thraupidae,Thraupis abbas,Non_endemic_MaxAge,0,1.34,NA,1.34,Thraupis_abbas,seco,Non-Tyrannidae,TRUE
+78,Tityridae,Pachyramphus aglaiae,Non_endemic_MaxAge,0,1.03,NA,NA,Pachyramphus_aglaiae,seco,Non-Tyrannidae,TRUE
+79,Tityridae,Pachyramphus major,Non_endemic_MaxAge,0,2.6,NA,2.6,NA,seco,Non-Tyrannidae,False 
+80,Tityridae,Schiffornis veraepacis,Non_endemic_MaxAge,0,2.6,NA,2.6,NA,rainforest,Non-Tyrannidae,False 
+81,Tityridae,Tityra inquisitor,Non_endemic_MaxAge,0,2.6,NA,2.6,NA,seco,Non-Tyrannidae,False 
+85,Troglodytidae,Pheugopedius maculipectus,Non_endemic_MaxAge,0,2.6,NA,2.6,NA,seco,Non-Tyrannidae,False 
+88,Troglodytidae,Uropsila leucogastra,Non_endemic_MaxAge,0,2.6,NA,2.6,NA,seco,Non-Tyrannidae,False 
+92,Tyrannidae,Camptostoma imberbe,Non_endemic_MaxAge,0,2.6,NA,2.6,NA,seco,Tyrannidae,False 
+93,Tyrannidae,Elaenia flavogaster,Non_endemic_MaxAge,0,0.72,NA,0.72,Elaenia_flavogaster,seco,Tyrannidae,TRUE
+94,Tyrannidae,Elaenia martinica,Non_endemic_MaxAge,0,2.6,NA,2.6,NA,rainforest,Tyrannidae,False 
+95,Tyrannidae,Legatus leucophaius,Non_endemic_MaxAge,0,2.6,NA,2.6,NA,rainforest,Tyrannidae,False 
+96,Tyrannidae,Leptopogon amaurocephalus,Non_endemic_MaxAge,0,2.6,NA,2.6,NA,rainforest,Tyrannidae,False 
+103,Tyrannidae,Myiodynastes luteiventris,Non_endemic_MaxAge,0,0.17,NA,NA,Myiodynastes_luteiventris_DQ433835_Nicaragua,seco,Tyrannidae,TRUE
+106,Tyrannidae,Oncostoma cinereigulare,Non_endemic_MaxAge,0,2.6,NA,2.6,NA,seco,Tyrannidae,False 
+107,Tyrannidae,Ornithion semiflavum,Non_endemic_MaxAge,0,2.6,NA,2.6,NA,rainforest,Tyrannidae,False 
+108,Tyrannidae,Pitangus sulphuratus,Non_endemic_MaxAge,0,0.1,0.1,NA,Pitangus_sulphuratus,seco,Tyrannidae,TRUE
+109,Tyrannidae,Platyrinchus cancrominus,Non_endemic_MaxAge,0,1.47,NA,1.47,NA,rainforest,Tyrannidae,TRUE
+111,Tyrannidae,Pyrocephalus rubinus,Non_endemic_MaxAge,0,2.6,NA,2.6,NA,seco,Tyrannidae,False 
+112,Tyrannidae,Rhynchocyclus brevirostris,Non_endemic_MaxAge,0,2.6,NA,2.6,NA,rainforest,Tyrannidae,False 
+113,Tyrannidae,Todirostrum cinereum,Non_endemic_MaxAge,0,0.9,NA,0.9,Todirostrum_cinereum_KM894392_El_Salvador,rainforest,Tyrannidae,TRUE
+114,Tyrannidae,Tolmomyias sulphurescens,Non_endemic_MaxAge,0,1.4,NA,1.4,NA,seco,Tyrannidae,TRUE
+116,Tyrannidae,Tyrannus melancholicus,Non_endemic_MaxAge,0,1.03,NA,1.03,Tyrannus_dominicensis_DQ434207 ,seco,Tyrannidae,TRUE
+117,Vireonidae,Vireolanius pulchellus,Non_endemic_MaxAge,0,2.6,NA,2.6,NA,rainforest,Non-Tyrannidae,False 
+60,Thamnophilidae,Microrhopias quixensis,Non_endemic_MaxAge_MinAge,0,"0.98,0.72",NA,0.98,Microrhopias_quixensis_FJ175882_Belize,rainforest,Non-Tyrannidae,TRUE
+61,Thamnophilidae,Thamnophilus doliatus,Non_endemic_MaxAge_MinAge,0,"0.94,0.09",0.09,NA, Thamnophilus_doliatus,seco,Non-Tyrannidae,TRUE
+89,Turdidae,Turdus grayi,Non_endemic_MaxAge_MinAge,0,"0.51,0.27",0.27,0.51,Turdus_grayi_HM208686_Campeche,seco,Non-Tyrannidae,TRUE
+4,Cardinalidae,Cyanoloxia cyanoides,Non_endemic_MaxAge_MinAge,0,"0.20,0.03",0.03,0.2,Cyanocompsa_cyanoides,rainforest,Non-Tyrannidae,TRUE
+6,Cardinalidae,Habia fuscicauda,Non_endemic_MaxAge_MinAge,0,"2.12,1.74",0.35,2.12,Habia_fuscicauda,seco,Non-Tyrannidae,TRUE
+14,Fringillidae,Euphonia affinis,Non_endemic_MaxAge_MinAge,0,"0.33, 0.20",0.2,0.33,Euphonia_affinis,seco,Non-Tyrannidae,TRUE
+27,Furnariidae,Xiphorhynchus flavigaster,Non_endemic_MaxAge_MinAge,0,"0.15,0.03",0.03,0.15,Xiphorhynchus_flavigaster,seco,Non-Tyrannidae,TRUE
+30,Icteridae,Amblycercus holosericeus,Non_endemic_MaxAge_MinAge,0,"2.48, 0.06",0.06,2.49,Amblycereus_holosericeus_AY117722_Yucatan,seco,Non-Tyrannidae,TRUE
+33,Icteridae,Icterus chrysater,Non_endemic_MaxAge_MinAge,0,"0.06,0.007",0.01,0.06,Icterus_chrysater,seco,Non-Tyrannidae,TRUE
+37,Icteridae,Icterus prosthemelas,Non_endemic_MaxAge_MinAge,0,"2.6,0.07",0.08,2.6,Icterus_dominicensis_prosthemelas_AF099327_Campeche_Mexico,seco,Non-Tyrannidae,TRUE
+75,Thraupidae,Thraupis episcopus,Non_endemic_MaxAge_MinAge,0,"0.29, 0.05",0.05,0.29,Thraupis_episcopus,rainforest,Non-Tyrannidae,TRUE
+122,Virionidae,Vireo pallens,Non_endemic_MaxAge_MinAge,0,"2.6,0.13",0.13,2.6,Vireo_pallens,seco,Non-Tyrannidae,TRUE

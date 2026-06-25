@@ -20,7 +20,7 @@ Contains CSV files with the estimated speciation and immigration times to the Yu
 **data/models:** \
 Folder with parameter values for tested scenarios for each model \
 ***.csv***: Five files in csv format with parameter values for each tested scenario of each compared models. \
-***model_selection_results.xlsx***: Summary of arameter values of the compared scenarios for each model.
+***model_selection_results.xlsx***: Summary of parameter values of the compared scenarios for each model.
 
 **data/simulations:** \
 Folder with simulations requred for parametric bootstrap analyses for all models \
